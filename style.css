@@ -1,0 +1,79 @@
+h1  {font-size:60px;
+      background-color:blue;
+      color:red;
+      text-transform:uppercase;}
+
+body {font-family: Arial, sans-serif;
+      background-color: orange;
+      margin: 0;
+      padding: 0;}
+
+    
+    #header {background-color: rgba(0, 0, 0, 0.8);
+      color: #fff;
+      padding: 20px;}
+    
+    
+    #header h1 {margin: 0;}
+    
+    
+    #nav {background-color: #333;
+      color: #fff;
+      padding: 10px;}
+   
+    
+    #nav a {color: #fff;
+      text-decoration: none;
+      margin-right: 10px;}
+    
+    
+    #nav a:hover {text-decoration: underline;}
+    
+    
+    #content {padding: 20px;}
+    
+    
+    #vehicles {display: flex;
+      flex-wrap: wrap;}
+    
+    
+    .vehicle {width: 300px;
+      margin: 10px;
+      padding: 10px;
+      background-color: green;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);}
+   
+    
+    .vehicle img {width: 100%;
+      height: auto;
+      border-radius: 5px;}
+   
+    
+    #contact-form {margin-top: 20px;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);}
+   
+    
+    #contact-form input[type="text"], #contact-form textarea {width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 3px;}
+   
+    
+    #contact-form input[type="submit"] {background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;}
+    
+    
+    #contact-form input[type="submit"]:hover {background-color: purple;}
+    
+
+      
+    
